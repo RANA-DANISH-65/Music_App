@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" href="../Assets/Artists/favicon.png" type="image/png" />
+    <title>RD MELODY</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="menu-control">
+        <h1>PLAYLIST</h1>
+        <div class="playlist">
+          <h4 class="active">
+            <span></span><i class="fa-solid fa-music"></i>Playlist
+          </h4>
+          <h4><span></span><i class="fa-solid fa-music"></i>Recently Played</h4>
+          <h4><span></span><i class="fa-solid fa-music"></i>Recommended</h4>
+        </div>
+
+        <div class="songslist" id="playlistDiv"></div>
+      </div>
+
+      <div class="songs-control">
+        <nav>
+          <ul>
+            <li>Discover <span></span></li>
+            <li>MY Library</li>
+            <li>Radio</li>
+          </ul>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+            <input type="text" placeholder="Search Music..." / id="searchInput">
+            <div class="searchResults" id="searchResults"></div>
+          </div>
+          <div class="logo">
+            <img src="../Assets/Artists/logo.png" alt="logo" />
+            <h2>RD MELODY</h2>
+          </div>
+        </nav>
+
+        <div class="content">
+          <h1 id="singName">TALHA ANJUM</h1>
+          <p id="singIntro">
+            Kaun Talha? Kaun Talha? Kaun Talha? Kaun Talha? <br />
+            Rap Elia toh Jaun Talha, Mumbai ki sarak pe YS<br />
+            Tu Munawar se puch le, "Kaun Talha?"<br />
+            KR$NA ko pata hai, "Kaun Talha?"
+          </p>
+          <div class="buttons">
+            <button>Play</button>
+            <button>Follow</button>
+          </div>
+          <img src="../Assets/Artists/talhaArtist.png" alt="" id="artistPic" />
+        </div>
+
+        <div class="popular">
+          <div class="h4">
+            <h4>Popular Songs</h4>
+            <div class="buttons">
+              <i class="fa-solid fa-arrow-left" id="Songs-leftBtn"></i>
+              <i class="fa-solid fa-arrow-right" id="Songs-rightBtn"></i>
+            </div>
+          </div>
+          <div class="popSongs" id="popSongsDiv"></div>
+
+          <div class="artists">
+            <div class="h4">
+              <h4>Popular Artists</h4>
+              <div class="buttons">
+                <i class="fa-solid fa-arrow-left" id="Artists-leftBtn"></i>
+                <i class="fa-solid fa-arrow-right" id="Artists-rightBtn"></i>
+              </div>
+            </div>
+            <div class="item">
+              <li class="singer">
+                <a href="talha.html"
+                  ><img src="../Assets/Artists/talha.jpeg" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="parmesh.html"
+                  ><img src="../Assets/Artists/PARMESH.jpeg" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="aujla.html"
+                  ><img
+                    src="../Assets/Artists/Karan-Aujla-Press-Image.jpeg"
+                    alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="sidhu.html"
+                  ><img src="../Assets/Artists/sidhumosewala.jpeg" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="shub.html"
+                  ><img src="../Assets/Artists/SHUB.jpeg" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="arjit.html"
+                  ><img src="../Assets/Artists/ARJIT.jpeg" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="diljit.html"
+                  ><img src="../Assets/Artists/DILJIT.jpeg" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="atif.html"
+                  ><img src="../Assets/Artists/atif.png" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="rahat.html"
+                  ><img src="../Assets/Artists/rahat.jpeg" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="nusrat.html"
+                  ><img src="../Assets/Artists/nusrat.jpeg" alt=""
+                /></a>
+              </li>
+              <li class="singer">
+                <a href="harry.html"
+                  ><img src="../Assets/Artists/hary.jpeg" alt=""
+                /></a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="play-control">
+        <div class="wave">
+          <div class="wave1"></div>
+          <div class="wave2"></div>
+          <div class="wave3"></div>
+        </div>
+        <img
+          src="../Assets/Covers/TALHA COVERS/FIVE.jpeg"
+          alt=""
+          id="poster"
+        />
+        <h5 id="title">
+          AGENCY
+          <div class="subtitle">TALHA ANJUM</div>
+        </h5>
+        <div class="icons">
+          <i class="shuffle fa-solid fa-music" id="shuffle">next</i>
+          <i class="fa-solid fa-backward-step" id="PreBtn"></i>
+          <i class="fa-regular fa-circle-play" id="playBtn"></i>
+          <i class="fa-solid fa-forward-step" id="NextBtn"></i>
+          <a href="" id="downloadBtn"><i class="fa-solid fa-download"></i></a>
+        </div>
+        <span class="startTime"> 00:00 </span>
+        <div class="bar">
+          <input type="range" id="seek" min="0" max="100" />
+          <div class="bar2" id="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span class="endTime"> 00:00 </span>
+        <div class="vol">
+          <i class="fa-solid fa-volume-high" id="Vol-icon"></i>
+          <input type="range" id="vol" min="0" max="100" />
+          <div class="vol-bar"></div>
+          <div class="dot" id="vol-dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="../SINGERS SCRIPTS/talhaScript.js"></script>
+  </body>
+</html>
